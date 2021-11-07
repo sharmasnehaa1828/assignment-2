@@ -1,0 +1,124 @@
+/* Our CSS file. */
+
+
+.container, .content {
+width: 100%;
+}
+
+
+header{
+    width: 96%;
+    height: 150px;
+    border: 1px solid rgb(51, 71, 189);
+    margin: 0 auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #5D6D7E;
+}
+
+.logo{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 110px;
+    text-align: center;
+}
+nav a{
+    margin-right: 2%;
+    text-decoration: none;
+    font-size: 1.7vw;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #fff;
+}
+#special{
+    color: tomato;
+    font-size: 1.9vw;
+    font-weight: bold;
+}
+#special:hover{
+    color: #fff;
+}
+.search-here{
+    float: right;
+    margin-top: 6vh;
+    margin-right: 2vh;
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.left{
+    /* flex: 1; */
+    background: yellowgreen;
+    flex-basis: 15%;
+    border-radius: 12px;
+}
+.left ul{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.left ul li{
+    cursor: pointer;
+    margin: 10px auto;
+}
+.middle{
+    /* flex: 3; */
+    flex-basis: 65%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+.middle img{
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.right-sidebar-menu{
+    /* flex: 1; */
+    background: yellowgreen;
+    flex-basis: 15%;
+    border-radius: 12px;
+}
+
+.right-sidebar-menu ul{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.right-sidebar-menu ul li{
+    cursor: pointer;
+    margin: 10px auto;
+}
+#page-footer{
+    width: 96%;
+    margin-top: 15px;
+    background-color: grey;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 1.6vw;
+    border-radius: 14px;
+}
